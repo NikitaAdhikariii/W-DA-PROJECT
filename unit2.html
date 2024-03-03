@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<head>
+<title>Unit 2</title>
+<style>
+    /* Apply a border to a div with the class "bordered" */
+    .bordered {
+        border: 2px solid #000; /* 2px width, solid style, black color */
+        padding: 10px; /* Optional: Add padding for better appearance */
+    }
+    .highlight {
+      background-color: olive;
+      font-weight: bold;
+    }
+</style>
+</head>
+<body text="black" bgcolor="aliceblue">
+<center><h1><u>UNIT 2</u></h1></center>
+<h2><b><i>1.CREATING DOM</i></b></h2>
+<p>The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. This guide will introduce the DOM, look at how the DOM represents an HTML document in memory and how to use APIs to create web content and applications.<br>
+The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.<br>
+<br>In summary, creating a DOM structure involves creating individual nodes and organizing them in a hierarchical structure using JavaScript or other programming languages, and it can be done using several methods depending on the use case and the developer's preference.<br>
+<br><i><b>DOM: Creating Elements</b></i><br>
+<br>1.createElement() — create a new element.<br>
+2.setAttribute() — set any needed attributes, such as ID's or classes.<br>
+3.createTextNode() — create any needed content.<br>
+4.appendChild() — attach the new text node to the element.<br></p>
+<h2><b><i>2.DOCTYPE</i></b></h2>
+<p>The DOCTYPE declaration is an instruction to the web browser about what version of HTML the page is written in. This ensures that the web page is parsed the same way by different web browsers. In HTML 4.01, the DOCTYPE declaration refers to a document type definition (DTD).</p>
+<h2><b><i>3.CHARACTER ENCODING</i></b></h2>
+<p>Character encoding is a process that assigns numbers to graphical characters. This allows characters to be stored, transmitted, and transformed using digital computers.<br> 
+<br>Character encoding works by assigning a numeric value to each letter, number, or symbol. These values are known as code points, and allow computers to store and manipulate text. <br>
+<br>Characters in a character set are stored as one or more bytes in a computer. Each byte or sequence of bytes represents a given character. A character encoding is the key that maps a particular byte or sequence of bytes to particular characters. <br>
+<br>Character encoding can be thought of as a special code that stores all characters in computers. A character encoding provides a key to unlock (ie. crack) the code.<br> 
+<br>Some examples of character encodings include:<br>
+a.)ASCII: Has characters from 33 to 126<br>
+b.)Unicode: Has a 16-bit (two-byte) version (UCS-2) and a 32-bit (four-byte) version (UCS-4)<br>
+c.)UTF-8: Has been the most common encoding for the World Wide Web since 2008 <br></p>
+<h2><b><i>4.DEPRECATED ELEMENTS</i></b></h2>
+<p>A deprecated element or attribute is one that has been outdated by newer constructs. Deprecated elements may become obsolete in future versions of HTML.<br> 
+<br>Here are some deprecated elements in HTML5:<br>
+<br>a.)< acronym>: Defines an acronym<br>
+b.)< applet>: Defines an applet<br>
+c.)< basefont>: Defines an base font for the page<br>
+d.)< big>: Defines big text<br>
+e.)< center>: Defines centered text<br>
+f.)< dir>: Use < ol> and < ul> instead<br>
+g.)< frame>: Use < iFrame> instead<br>
+h.)< strike>: Use text-decoration instead<br>
+i.)< center>: Use text-align: center instead <br>
+<br>Other deprecated elements in HTML5 include:<br>
+1.)img<br>
+2.)iframe<br>
+3.)caption<br>
+4.)input<br>
+5.)object<br>
+6.)legend<br>
+7.)table<br>
+8.)hr<br>
+9.)div<br>
+10.)h1, h2, h3, h4, h5, h6, p, col, colgroup, tbody, td, tfoot, th, thead and tr</p>
+<h2><b><i>5.HTML5 DOCUMENT(section,article,aside,header,footer,nav,dialog,figure)</i></b></h2>
+<p>HTML5 includes the following elements:<br>
+<br><b>a.)Section</b><br>
+A thematic grouping of content that can include a heading. The section element is a new element in HTML5 with a different semantic meaning than article.<br>
+<br><b>b.)Article</b><br>
+A piece of article similar to a newspaper article. An article is for standalone content, while a section is for grouping thematically related content.<br>
+<br><b>c.)Aside</b><br>
+A section of a page that consists of content that is tangentially related to the content around the aside element.<br>
+<br><b>d.)Header</b><br>
+Defines a header for a document, section, or an article. The header tag can be used more than once on a single webpage, but it should be used as a single header in a section or an article.<br>
+<br><b>e.)Footer</b><br>
+Defines a footer for the document or a section.<br>
+<br><b>f.)Nav</b><br>
+Defines navigation links in the document. The nav element is intended for major navigation information, such as site-wide navigation.<br>
+<br><b>g.)Semantic tags</b><br>
+Add meaning to the content they wrap, making the code more readable and accessible. Examples of semantic tags include header, nav, aside, article, and footer. <br>
+<br><b>Other elements in HTML5 include:</b><br>
+a.)Block-level and inline elements<br>
+b.)Grouping elements: the DIV and SPAN elements<br>
+c.)Headings: The H1, H2, H3, H4, H5, H6 elements<br>
+d.)The ADDRESS element <br></p>
+<h2><b><i>6.SCRIPT TAG</i></b></h2>
+<p>The < script> tag is used to embed a client-side script (JavaScript). The < script> element either contains scripting statements, or it points to an external script file through the src attribute. Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content. <br>
+The script tag should either be included between the < head> tags or just before the closing < body> tag in your HTML document.<br>
+The < script> tag can be placed in the < head> section of your HTML or in the < body> section, depending on when you want the JavaScript to load. Generally, JavaScript code can go inside of the document < head> section in order to keep them contained and out of the main content of your HTML document.</p>
+<h2><b><i>7.LINK TAG</i></b></h2>
+<p>The < link> tag defines the relationship between the current document and an external resource. The < link> tag is most often used to link to external style sheets or to add a favicon to your website. The < link> element is an empty element, it contains attributes only.<br>
+The rel attribute specifies the relationship between the current document and the linked document. Only used if the href attribute is present.<br>
+<b>How to write a link in HTML?</b><br>
+A basic link is created by wrapping the text or other content inside an < a> element and using the href attribute, also known as a Hypertext Reference, or target, that contains the web address.<br>
+The href attribute specifies the URL of the page the link goes to. If the href attribute is not present, the < a> tag will not be a hyperlink. Tip: You can use href="#top" or href="#" to link to the top of the current page!<br>
+<h2><b><i>8.WEB FORMS IN DETAILS</i></b></h2>
+<p>A web form, also called an HTML form, is an online page that allows users to enter data. Web forms can look like paper forms or database forms, with checkboxes, radio buttons, or text fields. <br>
+<b>Web forms can be used for many purposes, including:</b><br>
+<br><b>a.)Collecting visitor information</b><br>
+Web forms can help website owners capture details like name, email, preferences, comments, and feedback.<br>
+<br><b>b.)Communication</b><br>
+Web forms can be used for communication between customers and businesses. For example, users can share their name and email address to sign up for a newsletter.<br>
+<br><b>c.)Online shopping</b><br>
+Web forms can be used in the checkout process, such as when a customer enters credit card information.<br>
+<br><b>d.)Search engines</b><br>
+Web forms can be used when a user types a phrase into a search engine's search field box.
+Web forms are written using a combination of HTML, client-script, server controls, and server code. They can be rendered in modern browsers using HTML and related web-oriented languages. <br>
+<br><b>Below is a simple example of an HTML code for a basic web form with fields for name, email, and a submit button:</b><br>
+<div class="bordered">
+< !DOCTYPE html><br>
+< html lang="en"><br>
+< head><br>
+< meta charset="UTF-8"><br>
+< meta name="viewport" content="width=device-width, initial-scale=1.0"><br>
+< title>Simple Web Form< /title><br>
+< /head><br>
+< body><br>
+< h1>Simple Web Form< /h1><br>
+< form action="#" method="post"><br>
+< !-- Name Field --><br>
+< label for="name">Name:< /label><br>
+< input type="text" id="name" name="name" required><br>
+< br><br>
+< !-- Email Field --><br>
+< label for="email">Email:< /label><br>
+< input type="email" id="email" name="email" required><br>
+< br><br>
+< !-- Submit Button --><br>
+< input type="submit" value="Submit"><br>
+< /form><br>
+< /body><br>
+< /html><br>
+</div>
+</body>
+
+<nav>
+  <center><button><a href="unit2.html">PREVIOUS</a></center></button>
+  <br>
+  <center><button><a href="unit3.html">NEXT</a></center></button>
+</nav>
+</html>
